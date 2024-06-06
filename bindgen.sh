@@ -1,4 +1,5 @@
 #!/bin/bash
+
 bindgen \
 --allowlist-function "Wintun.*" \
 --allowlist-type "WINTUN_.*" \
